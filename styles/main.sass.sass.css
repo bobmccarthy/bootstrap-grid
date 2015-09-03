@@ -43,6 +43,15 @@
   line-height: 3em;
   border-radius: .5em; }
 
+.fourpics {
+  margin-right: 2em;
+  margin-left: 2em; }
+
+.thumbnail {
+  border: none; }
+  .thumbnail span {
+    padding-left: 5em; }
+
 .line {
   border-top: 1px solid black;
   margin: 1em 2em 1em 2em; }
@@ -52,35 +61,28 @@
 
 .welcometo {
   color: #999999;
-  margin-bottom: 1em; }
+  margin: 1em 2em; }
 
 .welcometotext {
   color: #BABABA;
-  margin-bottom: 1em; }
+  margin: 1em 2em; }
 
 footer {
   color: white;
   background-color: #383F48;
-  overflow: hidden;
   margin-top: 1em; }
   footer .firstsection {
     padding: 2em 2em;
-    float: left;
-    width: 33%;
     color: #BABABA; }
     footer .firstsection .snappy {
       font-size: 1.3em; }
   footer .secondsection {
-    float: right;
-    width: 25%;
-    padding: 2em 1em;
+    padding: 2em 2em;
     color: #BABABA; }
     footer .secondsection .aboutus {
       font-size: 1.3em; }
   footer .thirdsection {
-    float: right;
-    width: 25%;
-    padding: 2em 1em;
+    padding: 2em 2em;
     color: #BABABA; }
     footer .thirdsection .contactus {
       font-size: 1.3em; }

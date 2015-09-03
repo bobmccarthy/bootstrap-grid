@@ -1,0 +1,146 @@
+.snap{
+	color: #4E8FD0;
+}
+.grid{
+	color: #5D6069;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+.backgroundpic{
+	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/bootstrap-grid/blob/master/images/hero-dark.jpg?raw=true");
+	background-size: cover;
+	height: 15.125em;
+	width: 100%;
+	box-sizing: border-box;
+}
+.snapgrid{
+	color: white;
+	text-align: center;
+	padding-top: 2em;
+	font-size: 2em;
+}
+.snapgrid2{
+	color: white;
+	text-align: center;
+	padding: 1em 8em;
+}
+.template{
+	color: #98979F;
+	font-size: 1.1em;
+}
+
+.sometext{
+	padding: 1em 0;
+	color: #BFBFBF;
+	font-size: .6em;
+}
+.but{
+	background-color: #4E8FD0;
+	color: white;
+	font-size: .5em;
+	text-align: center;
+	height: 3em;
+	line-height: 3em;
+	border-radius: .5em;
+}
+.line{
+	border-top:1px solid black;
+	margin: 1em 2em 1em 2em;
+}
+.texty{
+	color: #BABABA;
+}
+.welcometo{
+	color: #999999;
+	margin-bottom: 1em;
+}
+.welcometotext{
+	color: #BABABA;
+	margin-bottom: 1em;
+}
+footer{
+	color: white;
+	background-color:#383F48;
+	overflow: hidden;
+	margin-top: 1em;
+	.firstsection{
+		padding: 2em 2em;
+		float: left;
+		width: 33%;
+		color: #BABABA;
+		.snappy{
+			font-size: 1.3em;
+		}
+	}
+	.secondsection{
+		float: right;
+		width: 25%;
+		padding: 2em 1em;
+		color: #BABABA;
+		.aboutus{
+			font-size: 1.3em;
+		}
+	}
+	.thirdsection{
+		float: right;
+		width: 25%;
+		padding: 2em 1em;
+		color: #BABABA;
+		.contactus{
+			font-size: 1.3em;
+		}
+	}
+}
+
+
+@media screen and (min-width:48em){
+	.backgroundpic{
+		overflow:hidden;
+	}
+		.snapgrid{
+			box-sizing: border-box;
+			float: left;
+			// width: 50%;
+			padding: 3em 1em 0 25%;
+		}
+		.snapgrid2{
+			box-sizing: border-box;
+			float: left;
+			width:20em;
+			padding: 6.7em 0 0 0;
+			margin-right: 5em;
+		}
+	
+}
+
+@media screen and (min-width:62em){
+	
+}
+
+@media screen and (min-width:75em){
+	
+	.backgroundpic{
+		overflow: none;
+		.snapgrid{
+			box-sizing: none;
+			float: none;
+			font-size: 3em;
+			padding: 1em 0 0 0;
+		}
+		.snapgrid2{
+			box-sizing: none;
+			float: none;
+			width:none;
+			padding: 2em 0 0 0;
+			margin: 0 auto;
+		}
+	}
+	.template{
+		font-size: 1.5em;
+	}
+	.sometext{
+		font-size: .9em;
+	}
+}
